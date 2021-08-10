@@ -42,10 +42,10 @@ function clickButton(letter) {
 	   	return
 	}
 	if (guessesLeft === 1) {
-		document.getElementById("info").innerHTML = "The word can be any of 3000 english words. You have only 1 guess left."
+		document.getElementById("info").innerHTML = "The word can be any of 3000 English words. You have only 1 guess left."
 	}
 	else {
-		document.getElementById("info").innerHTML = "The word can be any of 3000 english words. You have "+guessesLeft+" guesses left."
+		document.getElementById("info").innerHTML = "The word can be any of 3000 English words. You have "+guessesLeft+" guesses left."
 	}
 }
  function nothing(){}
